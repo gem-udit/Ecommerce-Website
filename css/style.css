@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.align-header{
+    margin-top: 15%;
+    padding: 2%;
+}
+.my-header-background{
+    background: radial-gradient(#ffffff,#ffd6d6);
+}
+.header-bold-text{
+    font-weight: bold;
+    font-size: 50px;
+}
+.categories-container{
+    margin: auto;
+    margin-top: 70px;
+}
+.featured-product-title{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.checked{
+    color: red;
+}
+.my-exclusive-img{
+    padding: 50px;
+}
+.my-exclusive-container{
+    background: radial-gradient(#ffffff,#ffd6d6);
+    margin-top: 80px;
+    padding: 20px;
+}
+.my-exclusive-container h6{
+    color: grey;
+    font-weight: 500;
+}
+.my-exclusive-container h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.my-exclusive-container p{
+    font-size: small;
+    color: gray;
+}
+.my-exclusive-small-container{
+    padding: 30px;
+}
+.my-exclusive-container .my-exclusive-small-container .row div{
+    margin: auto;
+}
+.brand-container{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.brand-container img{
+    margin: auto;
+}
+.my-footer{
+    background: black;
+    color: white;
+    margin-top: 50px;
+    padding: 5%;
+    padding-top: 60px;
+}
+.my-footer p{
+    font-size: 17px;
+    color: gray;
+}
+.my-horizontal-line{
+    border-top: 2px solid white;
+}
+.fa{
+    color: red;
+}
+.hover-effect{
+    transition: 0.5s;
+}
+.hover-effect:hover{
+    transform: translateY(5px);
+}
+.black-and-white-image{
+    filter: grayscale(100%);
+}
+.black-and-white-image:hover{
+    filter: grayscale(0%);
+}
+.twenty-percent-image{
+    width: 20%;
+}
+@media (max-width: 992px) {
+    .app-store-image{
+        width: 200px;
+    }
+}
